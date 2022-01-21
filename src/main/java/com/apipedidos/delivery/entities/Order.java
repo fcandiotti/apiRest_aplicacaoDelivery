@@ -16,7 +16,7 @@ public class Order implements Serializable {
     private Long id;
 
     private String address;
-    private Double latitute;
+    private Double latitude;
     private Double longitude;
     private Instant moment;
     private Double total;
@@ -32,10 +32,10 @@ public class Order implements Serializable {
     public Order() {
     }
 
-    public Order(Long id, String address, Double latitute, Double longitude, Instant moment, Double total, OrderStatus status) {
+    public Order(Long id, String address, Double latitude, Double longitude, Instant moment, Double total, OrderStatus status) {
         this.id = id;
         this.address = address;
-        this.latitute = latitute;
+        this.latitude = latitude;
         this.longitude = longitude;
         this.moment = moment;
         this.total = total;
@@ -58,12 +58,12 @@ public class Order implements Serializable {
         this.address = address;
     }
 
-    public Double getLatitute() {
-        return latitute;
+    public Double getLatitude() {
+        return latitude;
     }
 
-    public void setLatitute(Double latitute) {
-        this.latitute = latitute;
+    public void setLatitute(Double latitude) {
+        this.latitude = latitude;
     }
 
     public Double getLongitude() {
