@@ -1,5 +1,5 @@
-<h1> **API Rest Simulando um Sistema de Delivery** 🛵 📲 </h1>
----
+<h1> API Rest Simulando um Sistema de Delivery  🛵 📲 </h1>
+
 
 ## Tecnologias Utilizadas: 💻
 
@@ -38,6 +38,7 @@
 <p>4- Criar as tabelas no PostgressSQL com bate no arquivo create.sql</p>
 <p>5- Inserir a carga de dados que inicial no PostgressSQL</p>
 <p>6- Após feito todas as etapas anteriores, comentar novamente os comandos e excluir o arquivo create.sql.</p>
+
 ---
 
 ## Testes com o Postman: 🛠
